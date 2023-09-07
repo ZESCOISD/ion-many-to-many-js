@@ -3,7 +3,7 @@ const subVideo = document.getElementById("remoteVideos");
 const bntPubCam = document.getElementById("bnt_pubcam");
 const bntPubScreen = document.getElementById("bnt_pubscreen");
 
-const serverURL = "ws://localhost:7000/ws";
+const serverURL = "wss://dev.zesco.co.zm:7881/ws";
 
 const config = {
   iceServers: [
